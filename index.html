@@ -1,0 +1,15 @@
+<body>
+    <h1>Page Visibility API in Javascript</h1>
+    <ul class="tsummary">
+        <li>Detect when the page is hidden/visible</li>
+        <li>Can be used to save resources or pause automatic actions</li>
+        <li>Detects when someone leaves the page or minimizes the window</li>
+    </ul>
+
+    <script>
+        document.addEventListener("visibilitychange", function () {
+            document.title = document.visibilityState;
+            console.log(document.visibilityState);
+        });
+    </script>
+</body>
