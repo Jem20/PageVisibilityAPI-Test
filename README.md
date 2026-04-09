@@ -1,5 +1,5 @@
 # PageVisibilityAPI-Test
-**This is purely just to test the "visibiltychange" event. It isn't meant to be anything advanced.**
+**This is purely just to test the "visibilitychange" event. It isn't meant to be anything advanced.**
 
 Using the page visibility API to determine whether a page is visible or hidden.
 
